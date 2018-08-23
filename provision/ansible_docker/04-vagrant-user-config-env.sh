@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "[$0] ..."
+echo "Executing [04-vagrant-user-config-env.sh] ..."
 
 [ "$(id -un)" != "vagrant" ] && {
   echo "lo script va eseguito come utente vagrant."

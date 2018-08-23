@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "[$0] ..."
+echo "Executing [03-vagrant-install-ansible.sh] ..."
 
 [ "$(id -un)" != "vagrant" ] && {
   echo "lo script va eseguito come utente vagrant."
