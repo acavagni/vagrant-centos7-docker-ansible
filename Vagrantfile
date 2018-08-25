@@ -72,6 +72,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", privileged: false, path: "provision/ansible_docker/03-vagrant-install-ansible.sh"
   config.vm.provision "shell", privileged: false, path: "provision/ansible_docker/04-vagrant-user-config-env.sh"
   config.vm.provision "shell", path: "provision/ansible_docker/05-root-fix-LC_VARS-leak.sh"
+  config.vm.provision "shell", path: "provision/ansible_docker/06-root-custom-aliases.sh"
   
   # config.vm.provision "shell", inline: <<-SHELL
   #   apt-get update
