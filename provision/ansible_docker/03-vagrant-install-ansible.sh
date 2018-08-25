@@ -17,3 +17,4 @@ pip install --upgrade pip
 pip install --upgrade setuptools
 pip install ansible==2.3.3.0
 deactivate
+echo "alias ansi23='source ~/envs/ansi23/bin/activate;cd ~/envs/ansi23'" >> ~/.bashrc
